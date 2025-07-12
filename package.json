@@ -193,8 +193,9 @@
     "wallet:release:generate-cherry-pick-commit-command": "npx tsx ./scripts/wallet-releases/generate-cherry-pick-commit-command.ts"
   },
   "workspaces": [
-    "apps/*",
-    "packages/*",
-    "config/*"
+  "apps/web",
+  "packages/*",
+  "config/*"
+]
   ]
 }
