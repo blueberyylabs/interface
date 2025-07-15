@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "husky": "^8.0.0"
-    /* add other real dependencies here */
+    /* Add your other dependencies here as key-value pairs */
   },
   "devDependencies": {
-    /* put dev-only deps here, but no husky */
+    /* Add your dev-only dependencies here, excluding husky */
   },
   "workspaces": [
     "apps/web",
