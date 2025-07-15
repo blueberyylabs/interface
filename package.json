@@ -1,4 +1,7 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "download": "...",
     "lfg": "yarn g:prepare && yarn mobile env:local:download && yarn extension env:local:download && yarn g:build && yarn mobile pod && yarn mobile ios",
@@ -17,6 +20,13 @@
     "knip": "knip",
     "wallet:release:setup-cherry-pick-branches": "npx tsx ./scripts/wallet-releases/generate-cherry-pick-branches-for-release.ts",
     "wallet:release:generate-cherry-pick-commit-command": "npx tsx ./scripts/wallet-releases/generate-cherry-pick-commit-command.ts"
+  },
+  "dependencies": {
+    "husky": "^8.0.0"
+    /* add other real dependencies here */
+  },
+  "devDependencies": {
+    /* put dev-only deps here, but no husky */
   },
   "workspaces": [
     "apps/web",
